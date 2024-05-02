@@ -10,9 +10,6 @@ export default function Header() {
       <nav className="container flex items-center justify-between">
         <ul className="flex gap-6 items-center">
           <li>
-            <OpenAiLogo size={40} />
-          </li>
-          <li>
             <Link
               className="text-gray-500 transition-all hover:text-gray-900 dark:text-gray-200 dark:hover:text-gray-50"
               href="/"
